@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Welcome to the JavaScript Cheat Sheet</h1>
+      <p>
+        This webpage will serve as notes, references, examples and a space
+        practicing lessons
+      </p>
+    </header>
+    <nav id = "navbar" class="navbar">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="htmlpage.html">HTML Page</a></li>
+        <li><a href="css.html">CSS Page</a></li>
+        <li><a href="javascript.html">JavaScript Page</a></li>
+      </ul>
+    </nav>
+    <main id="main-content">
+      <h2>Content</h2>
+      <p>
+        This is the main content area where you can add your notes, examples, and
+        practice exercises.
+      </p>
+      <div id="container">
+        <h2>Bulletin Board</h2>
+        <p>What topics do you need to work on?</p>
+        <textarea id="inputBox" placeholder="Write your note..."></textarea>
+        <br>
+        <button id="saveButton">Save</button>
+        <button id="clearAllButton">Clear All</button>
+        <div id="notesContainer"></div> <!-- Where saved notes appear -->
+    </div>
+    
+
+      <p>
+        Basic JavaScript Syntax: 
+      </p>
+      <!-- Add this below the "Basic JavaScript Syntax:" paragraph -->
+<ul>
+  <li><strong>Variables:</strong> Used to store data values. Declared using <code>var</code>, <code>let</code>, or <code>const</code>. Example: <code>let x = 5;</code></li>
+  <li><strong>Functions:</strong> A block of code designed to perform a particular task. Example: <code>function greet() { console.log('Hello!'); }</code></li>
+  <li><strong>Conditionals:</strong> Used to perform different actions based on different conditions. Example: <code>if (x > 10) { console.log('x is greater than 10'); }</code></li>
+  <li><strong>Loops:</strong> Used to repeat a block of code. Example: <code>for (let i = 0; i < 5; i++) { console.log(i); }</code></li>
+  <li><strong>Arrays:</strong> Used to store multiple values in a single variable. Example: <code>let fruits = ['apple', 'banana', 'cherry'];</code></li>
+  <li><strong>Objects:</strong> Used to store collections of data and more complex entities. Example: <code>let person = { name: 'John', age: 30 };</code></li>
+  <li><strong>Events:</strong> Actions that occur in the browser, such as clicks or key presses. Example: <code>element.addEventListener('click', function() { alert('Clicked!'); });</code></li>
+  <li><strong>DOM Manipulation:</strong> Used to interact with and modify HTML elements. Example: <code>document.getElementById('container').innerHTML = 'Hello World';</code></li>
+  <li><strong>Arrow Functions:</strong> A shorter syntax for writing functions. Example: <code>const add = (a, b) => a + b;</code></li>
+  <li><strong>Promises:</strong> Used to handle asynchronous operations. Example: <code>fetch('url').then(response => response.json()).then(data => console.log(data));</code></li>
+</ul>
+  </body>
+</html>
+
+
+
